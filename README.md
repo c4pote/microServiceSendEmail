@@ -10,7 +10,7 @@ Esse projeto foi utilizado para disparar um email para clientes que possuem parc
 Ele se conecta ao Postgres, obtem parcelas em atraso, e envia um email de notificação
 
 
-'''
+```
 CREATE TABLE fin_cobranca_atraso
 (
   id serial NOT NULL, -- 
@@ -32,4 +32,4 @@ COMMENT ON TABLE fin_cobranca_atraso
   IS 'Tabela que precisa ser alimentada para registro de cobrancas de atrasos por email';
 COMMENT ON COLUMN fin_cobranca_atraso.id IS '
 ';
-'''
+```
