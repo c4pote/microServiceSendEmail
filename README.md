@@ -9,6 +9,7 @@ Esse projeto foi utilizado para disparar um email para clientes que possuem parc
 
 Ele se conecta ao Postgres, obtem parcelas em atraso, e envia um email de notificação
 
+Tabela que deve ser criada no banco de dados para ser alimentada com parcelas em atraso 
 
 ```
 CREATE TABLE fin_cobranca_atraso
